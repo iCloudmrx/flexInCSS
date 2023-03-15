@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    border: 2px solid red;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.left,.middle, .right {
+    width: 300px;
+    text-align: center;
+    flex-flow: row nowrap;
+}
+.left {
+    background-color: aqua;
+}
+.middle {
+    background-color: blue;
+}
+.right {
+    background-color: brown;
+}
